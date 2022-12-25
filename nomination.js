@@ -15,7 +15,7 @@ function getUserData () {
     .then (json => {
         const response = json;
         console.log (response);
-        document.getElementById ('user-uuid-2').value = response.id;
+        document.getElementById ('user-uuid').value = response.id;
         document.getElementById ('pro_title').value = response.title;
         document.getElementById ('pro_name').value = response.name;
         document.getElementById ('pro_title').value = response.title;
